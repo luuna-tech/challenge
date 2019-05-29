@@ -9,9 +9,7 @@ Welcome to Luuna's Data Engineering challenge.
 
 * Incomplete solutions are still considered.
 
-Any ambiguity is probably intended and meant for you to make design decisions. 
-
-Email any further questions or problems to **data@luuna.mx**.
+Any ambiguity is probably intended and meant for you to make design decisions. Email any further questions or problems to **data@luuna.mx**.
 
 
 ## Setup
@@ -23,7 +21,6 @@ In order to run the infrastructure necessary to solve this challenge, simply clo
 ```bash
 docker-compose up 
 ```
-
 After a couple of minutes, you will have a MySQL database available at:
 
 ```bash
@@ -58,7 +55,6 @@ Their daily salary is calculated according to the following formula:
 ```bash
 base_salary + base_salary*(day_average_speed)
 ```
-
 Average speed for the day is calculated by sampling their speed at 5 second intervals for 5 minutes.
 
 You can get the speed of currently active salesmen by performing an HTTP/GET request to:
@@ -66,7 +62,7 @@ You can get the speed of currently active salesmen by performing an HTTP/GET req
 ```bash
 localhost:3000/speed
 ```
-You will receive a JSON object, containing employees and their current speed. If an employee is not included, they are assumed to be inactive and therefore their current speed is 0.
+You will receive a JSON object, containing employees and their current speed. If an employee is not included they are assumed to be inactive and therefore their current speed is 0.
 
 ## Goal
 
