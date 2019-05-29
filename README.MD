@@ -97,7 +97,7 @@ Run
 ```bash
 docker-compose down 
 ```
-Email your solution to data@luuna.mx or link us to your repository. 
+Email data@luuna.mx with your source code, link us to your repository or follow a standard VCS flow to integrate your code with this repository. 
 
 ## Good luck!
 
